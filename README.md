@@ -2,10 +2,12 @@
 DSI4PR: Dual Stream Interaction for High-Precision Image to PointCloud Place Recognition
 
 Hardware configuration
+
 an Intel i7 13700K CPU and an Nvidia GeForce
 RTX4090 SUPRIM X GPU. 
 
 Setting up the environment
+
 This code is tested on Ubuntu 20.04.6 with Python 3.7.16 with torch 1.13.0+cu116 and CUDA 11.6 with following packages.
 
 numpy                     1.21.6
