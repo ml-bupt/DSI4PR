@@ -34,7 +34,7 @@ DSI4PR: Dual Stream Interaction for High-Precision Image to PointCloud Place Rec
 
 ## Acknowledgments
 
-This project is developed based on the work from [Shubodh Sai's Project](https://github.com/Shubodh/lidar-image-pretrain-VPR.git). Special thanks to Shubodh Sai for their open-source contributions.
+This project is developed based on the work from [Shubodh Sai's Project]. Special thanks to Shubodh Sai for their open-source contributions.
 
 
 
