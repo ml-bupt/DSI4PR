@@ -7,16 +7,27 @@ RTX4090 SUPRIM X GPU.
 
 Setting up the environment
 This code is tested on Ubuntu 20.04.6 with Python 3.7.16 with torch 1.13.0+cu116 and CUDA 11.6 with following packages.
+
 numpy                     1.21.6
-opencv-python             4.10.0.84 
+
+opencv-python             4.10.0.84
+
 pillow                    9.5.0 
+
 scipy                     1.7.3 
+
 scikit-learn              1.0.2  
+
 tensorboard               2.11.2  
+
 timm                      0.9.2  
+
 torchvision               0.14.0+cu116 
+
 tqdm                      4.67.1   
+
 albumentations            1.3.0  
+
 pyyaml                    6.0.1 
 
 Dataset
