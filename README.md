@@ -20,23 +20,33 @@ albumentations            1.3.0
 pyyaml                    6.0.1 
 
 Dataset
+
 KITTI
+
 Download from https://www.cvlibs.net/datasets/kitti/eval_odometry.php
+
 KITTI360
+
 Download from https://www.cvlibs.net/datasets/kitti-360/download.php.
 
 For KITTI "00" training
+
 python --expid=kitti
+
 For KITTI360 "3,4,5,6,7,9,10" training
+
 python --expid=kitti360
 
 For KITTI evaluating Recall@1
+
 python evaluate.py --expid kitti --eval_sequence 02 --threshold_dist 10
 
 For KITTI360 evaluating Recall@1
+
 python evaluate.py --expid kitti360 --eval_sequence 0000 --threshold_dist 10
 
 For zero-shot transfer evaluating KITTI To KITTI360 Recall@1
+
 python evaluate.py --expid kitti --eval_sequence 0000 --threshold_dist 10
 
 
