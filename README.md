@@ -53,35 +53,35 @@ python batch_depth.py
 
 /KITTI/data/dataset/sequences/00/
 
-│── calib.txt           # Calibration file
+│── calib.txt    
 
-│── pose.txt            # Pose information
+│── pose.txt         
 
-│── times.txt           # Timestamps
+│── times.txt       
 
-│── depth/              # Folder containing generated depth images
+│── depth/             
 
-│── image_2/            # Folder containing RGB images
+│── image_2/           
 
-│── velodyne/           # Folder containing LiDAR point cloud data
+│── velodyne/          
 
 /KITTI-360/
 
-│── data_2d_raw/                                      # 2D raw image data
+│── data_2d_raw/                                     
 
-│   ├── 2013_05_28_drive_0000_sync_image_00/          # Sequence folder
+│   ├── 2013_05_28_drive_0000_sync_image_00/         
 
-│   │   ├── 2013_05_28_drive_0000_sync/               # Synchronized image data
+│   │   ├── 2013_05_28_drive_0000_sync/             
 
-│   │   │   ├── image_00/                             # Camera 00 images
+│   │   │   ├── image_00/                          
 
-│   │   │   │   ├── data_rect/                        # Rectified RGB images
+│   │   │   │   ├── data_rect/                       
 
-│   │   │   │   ├── depth/                            # Generated depth maps
+│   │   │   │   ├── depth/                       
 
-│── data_3d_raw/                                      # 3D raw LiDAR data
+│── data_3d_raw/                                  
 
-│── data_poses/                                       # Pose information
+│── data_poses/                                     
 
 ## **For KITTI "00" training**
 
