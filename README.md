@@ -1,12 +1,11 @@
-# DSI4PR
-DSI4PR: Dual Stream Interaction for High-Precision Image to PointCloud Place Recognition
+# **DSI4PR: Dual Stream Interaction for High-Precision Image to PointCloud Place Recognition
 
-Hardware configuration
+**Hardware configuration
 
 an Intel i7 13700K CPU and an Nvidia GeForce
 RTX4090 SUPRIM X GPU. 
 
-Setting up the environment
+**Setting up the environment
 
 This code is tested on Ubuntu 20.04.6 with Python 3.7.16 with torch 1.13.0+cu116 and CUDA 11.6 with following packages.
 
@@ -32,33 +31,33 @@ albumentations            1.3.0
 
 pyyaml                    6.0.1 
 
-Dataset
+**Dataset
 
-KITTI
+**KITTI
 
 Download from https://www.cvlibs.net/datasets/kitti/eval_odometry.php
 
-KITTI360
+**KITTI360
 
 Download from https://www.cvlibs.net/datasets/kitti-360/download.php.
 
-For KITTI "00" training
+**For KITTI "00" training
 
 python --expid=kitti
 
-For KITTI360 "3,4,5,6,7,9,10" training
+**For KITTI360 "3,4,5,6,7,9,10" training
 
 python --expid=kitti360
 
-For KITTI evaluating Recall@1
+**For KITTI evaluating Recall@1
 
 python evaluate.py --expid kitti --eval_sequence 02 --threshold_dist 10
 
-For KITTI360 evaluating Recall@1
+**For KITTI360 evaluating Recall@1
 
 python evaluate.py --expid kitti360 --eval_sequence 0000 --threshold_dist 10
 
-For zero-shot transfer evaluating KITTI To KITTI360 Recall@1
+**For zero-shot transfer evaluating KITTI To KITTI360 Recall@1
 
 python evaluate.py --expid kitti --eval_sequence 0000 --threshold_dist 10
 
@@ -72,7 +71,7 @@ python evaluate.py --expid kitti --eval_sequence 0000 --threshold_dist 10
 
 
 
-## Acknowledgments
+## **Acknowledgments
 
 This project is developed based on the work from [Shubodh Sai's Project]. Special thanks to Shubodh Sai for their open-source contributions.
 
