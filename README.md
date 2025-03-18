@@ -50,22 +50,37 @@ Run the batch depth image generation .py we wrote
 python batch_depth.py
 
 ## **Final Dataset Directory**
-/ml/KITTI/data/dataset/sequences/00/
+
+/KITTI/data/dataset/sequences/00/
+
 │── calib.txt           # Calibration file
+
 │── pose.txt            # Pose information
+
 │── times.txt           # Timestamps
+
 │── depth/              # Folder containing generated depth images
+
 │── image_2/            # Folder containing RGB images
+
 │── velodyne/           # Folder containing LiDAR point cloud data
 
 /KITTI-360/
+
 │── data_2d_raw/                                      # 2D raw image data
+
 │   ├── 2013_05_28_drive_0000_sync_image_00/          # Sequence folder
+
 │   │   ├── 2013_05_28_drive_0000_sync/               # Synchronized image data
+
 │   │   │   ├── image_00/                             # Camera 00 images
+
 │   │   │   │   ├── data_rect/                        # Rectified RGB images
+
 │   │   │   │   ├── depth/                            # Generated depth maps
+
 │── data_3d_raw/                                      # 3D raw LiDAR data
+
 │── data_poses/                                       # Pose information
 
 ## **For KITTI "00" training**
