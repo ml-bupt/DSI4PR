@@ -1,4 +1,4 @@
-# **DSI4PR: Dual Stream Interaction for High-Precision Image to PointCloud Place Recognition
+# DSI4PR: Dual Stream Interaction for High-Precision Image to PointCloud Place Recognition
 
 ## **Hardware configuration**
 
