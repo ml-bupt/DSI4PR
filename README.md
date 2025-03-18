@@ -41,13 +41,18 @@ Download from https://www.cvlibs.net/datasets/kitti/eval_odometry.php
 
 Download from https://www.cvlibs.net/datasets/kitti-360/download.php.
 
+## **Data Preprocessing**
+## **Offline Depth Map Generation from Monocular RGB Images**
+Download mondepth2 framework git clone https://github.com/nianticlabs/monodepth2.git
+Run the batch depth image generation function we wrote
+
 ## **For KITTI "00" training**
 
-python --expid=kitti
+python train.py --expid=kitti
 
 ## **For KITTI360 "3,4,5,6,7,9,10" training**
 
-python --expid=kitti360
+python train.py --expid=kitti360
 
 ## **For KITTI evaluating Recall@1**
 
